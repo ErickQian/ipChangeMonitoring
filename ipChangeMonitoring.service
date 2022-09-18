@@ -1,0 +1,9 @@
+[Unit]
+Description=ipChangeMontoring Deamon
+
+[Service]
+Type=oneshot
+ExecStart=python /opt/ipChangeMonitoring/ipChangeMonitoring.py
+
+[Install]
+WantedBy=default.target

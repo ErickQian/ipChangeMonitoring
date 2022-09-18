@@ -1,0 +1,9 @@
+[Unit]
+Description=Run ipChangemeMonitoring.py 10min and on boot
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=timers.target
